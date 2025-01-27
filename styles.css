@@ -1,0 +1,263 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: purple;
+    background-color: rgb(183, 157, 12);
+  }
+  
+  header {
+    background: linear-gradient(to right, #000000, #450485, rgb(232, 0, 0)); /* Bright red shades */
+  color: white;;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('mygg.png' ) no-repeat center center/cover;
+    color: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .btn {
+    background: #ffffff;
+    color: #650a8f;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background: #6c0bec;
+  }
+  
+  /* Services Section */
+
+ 
+  .services {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background: rgb(255, 255, 255);
+    color: #7400bc;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-item {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-item p {
+    font-style: italic;
+  }
+  
+  /* About Section */
+
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #000000, #d80909, rgb(21, 21, 21)); /* Bright red shades */
+    color: white
+  }
+  .about {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills, .fun-facts {
+    margin-top: 2rem;
+  }
+  
+  .skills ul, .fun-facts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li, .fun-facts li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .contact-form, .contact-info {
+    width: 45%;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #3018e8;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: #001eff;
+    color: rgb(247, 255, 247);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #f10606;
+  }
+  
+  .contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .social-links a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #007BFF;
+    text-decoration: gold;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Map Section */
+  .map {
+    margin-top: 2rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: linear-gradient(to right, #000000, #de1203, rgb(188, 5, 225)); /* Bright red shades */
+    color: white;
+    
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+
+  

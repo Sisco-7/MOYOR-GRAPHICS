@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: linear-gradient(to bottom, #000000, #4d0297, rgb(255, 0, 0),black); /* Bright red shades */
+      color: rgb(255, 255, 255);;
+    }
+
+    header {
+      background: linear-gradient(to right, #000000, #6204c0, rgb(255, 0, 0)); /* Bright red shades */
+    color: rgb(255, 255, 255);;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: red;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .contact-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .contact-form, .contact-info {
+      width: 45%;
+      margin-bottom: 1rem;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+    }
+
+    .contact-form button {
+      background: linear-gradient(to right,rgb(236, 5, 5),rgb(0, 0, 0));
+      color: #d7d7d7;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background: linear-gradient(to right,rgb(107, 3, 198),rgb(0, 0, 0));
+    }
+
+    .contact-info h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-info p {
+      margin-bottom: 0.5rem;
+    }
+
+    .social-links a {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #0018f4;
+      text-decoration:double;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Map Section */
+    .map {
+      margin-top: 2rem;
+    }
+
+    .map iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      border-radius: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(to bottom, #000000, #6204c0, rgb(255, 0, 0)); /* Bright red shades */
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="showroom.html">Showroom</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <p>Have a project in mind or just want to say hello? Fill out the form below, and I’ll get back to you as soon as possible!</p>
+
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <form id="contact-form" action="https://formspree.io/f/mvgzzdlo" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong>moyorgraphics@gmail.com</p>
+        <p><strong>Phone:</strong>08146706932</p>
+        <p><strong>Address:</strong>Ogun State, Nigeria!</p>
+
+        <h3>Reach out to us for Business</h3>
+        <div class="social-links">
+            <a href="https://tiktok.com" target="_blank"><b>TikTok</b></a>
+            <a href="https://wa.me/2348146706932" target="_blank"><b>WhatsApp</b></a>
+            <a href="mailto:moyorgraphics@gmail.com" target="_blank"><b>Gmail</b></a>
+            <a href="tel:2348146706932"><b>Call Us</b></a>
+          </div>
+      </div>
+    </div>
+
+    <!-- Optional: Embed a Google Map -->
+    <div class="map">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.9523159999997!2d3.34531531531615!3d7.155499999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a33a4b5f5b6b5%3A0xf577d6f2c5f5b6b5!2sAbeokuta%2C%20Ogun%20State%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1697212345678"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy;<b>2025 MOYOR GRAPHICS. All rights reserved.</b></p>
+  </footer>
+
+  <script>
+    // JavaScript for form submission
+    const form = document.getElementById('contact-form');
+    const formStatus = document.createElement('div');
+    formStatus.classList.add('form-status');
+    form.insertAdjacentElement('afterend', formStatus);
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault(); // Prevent default form submission
+
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json',
+          },
+        });
+
+        if (response.ok) {
+          formStatus.textContent = 'Thank you! Your message has been sent.';
+          formStatus.style.color = 'green';
+          form.reset(); // Clear the form
+        } else {
+          throw new Error('Something went wrong. Please try again.');
+        }
+      } catch (error) {
+        formStatus.textContent = error.message;
+        formStatus.style.color = 'red';
+      }
+    });
+  </script>
+</body>
+</html>

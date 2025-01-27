@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Gallery</title>
+  <link rel="stylesheet" href="showroom.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="showroom.html">Showroom</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="template-gallery">
+    <h2>Showroom</h2>
+    <p>Explore my collection of professional designs</p>
+
+    <!-- Filter Buttons -->
+    <div class="filters">   
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="branding">Branding</button>
+      <button class="filter-btn" data-category="web">Web Design</button>
+      <button class="filter-btn" data-category="print">Print</button>
+      <button class="filter-btn" data-category="illustration">Illustration</button>
+    </div>
+
+    <!-- Template Grid -->
+    <div class="template-list">
+      <!-- Template items will be dynamically generated using JavaScript -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <b>2025 MOYOR GRAPHICS. All rights reserved.</b></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
